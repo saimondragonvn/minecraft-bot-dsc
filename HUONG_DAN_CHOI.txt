@@ -1,0 +1,146 @@
+================================================================================
+          CẨM NANG SINH TỒN & HƯỚNG DẪN CHƠI MINECRAFT RPG TỪ A - Z
+                 (DÀNH CHO NGƯỜI MỚI BẮT ĐẦU & TẤT CẢ NGƯỜI CHƠI)
+================================================================================
+
+Chào mừng bạn đến với thế giới Minecraft RPG trên Discord!
+Bot hỗ trợ 2 cách tương tác cực kỳ tiện lợi:
+• Dùng lệnh gạch chéo: /tên_lệnh (Khuyên dùng vì có bảng gợi ý trực quan).
+• Dùng lệnh gõ nhanh: !tên_lệnh (Ví dụ: !menu, !mine, !chop, !hunt, !craft).
+
+================================================================================
+PHẦN I: LỘ TRÌNH 8 BƯỚC PHÁT TRIỂN DÀNH CHO TÂN THỦ
+================================================================================
+
+[BƯỚC 1] NHẬN QUÀ KHỞI ĐẦU & MỞ BẢNG ĐIỀU KHIỂN:
+• Gõ /daily (hoặc !daily): Điểm danh nhận ngay Tiền Xu, EXP và Rương Quà tân thủ.
+• Gõ /menu (hoặc !menu): Mở BẢNG ĐIỀU KHIỂN TRUNG TÂM.
+  Mọi tính năng (Túi đồ, Rương an toàn, Khám phá, Nâng cấp) đều có nút bấm tại đây!
+
+[BƯỚC 2] CHẶT GỖ & CHẾ CÔNG CỤ CƠ BẢN:
+1. Gõ /chop (hoặc !chop): Đi vào rừng chặt gỗ, thu thập Gỗ Sồi (Oak Wood) và Quả Táo.
+2. Gõ /craft (hoặc !craft):
+   - Đổi Gỗ -> Ván Gỗ (Oak Planks).
+   - Chế Bàn Chế Tạo (Crafting Table) và Gậy Gỗ (Sticks).
+   - Chế tạo ngay Cúp Gỗ (Wooden Pickaxe) và Rìu Gỗ (Wooden Axe).
+3. Gõ /equip (hoặc !equip): Mặc Cúp và Rìu lên người để sẵn sàng đi đào khoáng sản!
+
+[BƯỚC 3] ĐÀO KHOÁNG SẢN & NÂNG CẤP ĐỒ ĐẠC:
+• Gõ /mine (hoặc !mine): Đi đào khoáng sản dưới lòng đất:
+  - Cúp Gỗ đào được: Đá Cuội (Cobblestone) và Than Đá (Coal).
+  - Dùng Đá cuội chế Cúp Đá để đào: Quặng Sắt (Iron Ore) và Ngọc Lưu Ly (Lapis).
+  - Chế Cúp Sắt để đào: Vàng (Gold), Đá Đỏ (Redstone) và KIM CƯƠNG (Diamond)!
+  - Chế Cúp Kim Cương để đào: Hắc Diện Thạch (Obsidian) và NETHERITE!
+
+[BƯỚC 4] SỬ DỤNG LÒ NUNG (FURNACE) & HỒI PHỤC MÁU:
+• Gõ /smelt (hoặc !smelt):
+  - Dùng Than đá nung Quặng Sắt thành Thỏi Sắt, Quặng Vàng thành Thỏi Vàng.
+  - Nung Thịt bò sống thành Thịt nướng để ăn hồi phục máu.
+• Khi bị mất máu:
+  - Gõ /eat (hoặc !eat): Ăn Táo, Bánh Mì hoặc Thịt nướng để hồi máu.
+  - Gõ /sleep (hoặc !sleep): Về nhà ngủ một giấc để HỒI PHỤC 100% MÁU VÀ MANA!
+
+[BƯỚC 5] ĐI SĂN QUÁI VẬT KIẾM EXP & NGUYÊN LIỆU:
+• Gõ /hunt (hoặc !hunt): Đi săn trong màn đêm:
+  - Chiến đấu theo lượt với Zombie, Skeleton, Nhện, Creeper, Phù thủy, Enderman.
+  - Các nút hành động: Chém Kiếm, Bắn Cung, Giơ Khiên, Hồi Máu, Rút Lui.
+  - Thu thập Xương, Chỉ may đồ, Thuốc súng, Mắt nhện và rất nhiều EXP!
+  - Chế tạo Cung tên (Bow) và Mũi tên (Arrow) để chuẩn bị cho các trận đại chiến.
+
+[BƯỚC 6] PHÙ PHÉP (ENCHANT) & TẨY BÙA TẠI ĐÁ MÀI:
+• Gõ /enchant (hoặc !enchant):
+  - Tiêu tốn EXP và Ngọc Lưu Ly (Lapis) để ép bùa ma pháp siêu mạnh:
+    + Kiếm: Sắc Bén (Sharpness), Đánh Lửa (Fire Aspect), Diệt Thây Ma (Smite).
+    + Cúp/Rìu: Hiệu Suất (Efficiency), Bền Bỉ (Unbreaking).
+    + Giáp: Bảo Vệ (Protection), Gai (Thorns).
+    + Cung: Sức Mạnh (Power), Bắn Vô Hạn (Infinity).
+• Gõ /disenchant (hoặc !disenchant, !grindstone, !taybua):
+  - 🧹 ĐÁ MÀI (GRINDSTONE): Chỉ tốn duy nhất 1 VIÊN NGỌC LƯU LY để xóa sạch toàn bộ
+    bùa chú không ưng ý, đưa trang bị về đồ Trắng nguyên bản để phù phép lại từ đầu!
+
+[BƯỚC 7] MỞ KHÓA CHIỀU KHÔNG GIAN (NETHER & THE END):
+• Mở Cổng Địa Ngục Nether 🌋:
+  - Chế tạo Hắc Diện Thạch (Obsidian = Dung Nham + Xô Nước) và Bật Lửa (Flint and Steel).
+  - Khám phá Nether để săn Quỷ Lửa Blaze lấy Bột Lửa (Blaze Powder).
+• Mở Cổng Thế Giới The End 🌌:
+  - Ghép Bột Lửa + Ngọc Ender thành Mắt Ender (Ender Eye).
+  - Thu thập đủ 12 Mắt Ender để khai mở Cổng The End tiến vào sào huyệt Rồng!
+
+[BƯỚC 8] KHIÊU CHIẾN CÁC SIÊU TRÙM (BOSS BATTLE):
+• Trùm Wither (/wither):
+  - Gom 3 Đầu Khô Lâu Wither + 4 Cát Linh Hồn để triệu hồi.
+  - Tiêu diệt để đoạt lấy Sao Địa Ngục (Nether Star) chế Đèn Biển Hải Đăng (Beacon)!
+• Rồng Ender (/party create hoặc !party create):
+  - Lập tổ đội tối đa 4 người cùng sát cánh chiến đấu.
+  - Bắn Cung phá hủy 12 Pha Lê End trên đỉnh cột đá Obsidian để chặn Rồng hồi máu.
+  - Phần thưởng huyền thoại: Trứng Rồng, Cánh Cứng Elytra, 2 Hộp Shulker Box,
+    15,000 EXP, 3,000 Xu và Sách Phù Phép cực hiếm!
+
+================================================================================
+PHẦN II: 4 QUY TẮC SINH TỒN "BẤT THÀNH VĂN" CẦN NHỚ
+================================================================================
+
+1. 🏠 CẤT ĐỒ QUÝ VÀO RƯƠNG NHÀ (CHEST AT HOME):
+• Khi tử trận (về 0 HP) mà không có Vật Tổ Bất Tử, toàn bộ đồ trong túi sẽ bị rơi mất.
+• BẢO VỆ TUYỆT ĐỐI: Hãy vào /menu -> Nhà Ở -> Cất Cúp xịn, Cánh Elytra, Kim Cương,
+  Netherite vào RƯƠNG NHÀ. Đồ trong Rương Nhà an toàn 100%, không bao giờ bị rơi!
+
+2. 🏃 CƠ CHẾ THÁO CHẠY KHI GẶP BOSS (TỈ LỆ 1:12):
+• Khi đánh quái thường, rút lui an toàn có tỉ lệ 65%.
+• Khi đánh Rồng Ender hoặc Wither: Nút [🏃 Tháo Chạy (1:12)] có tỉ lệ 1/12 (~8.33%).
+  Nếu thành công, toàn đội thoát về Thế giới thực an toàn KHÔNG MẤT BẤT KỲ MÓN ĐỒ NÀO,
+  và chỉ cần chờ 1 tiếng hồi sức để tái chiến!
+
+3. 🎯 LUYỆN AIM KIẾM & AIM CUNG (DEXTERITY):
+• Độ chuẩn xác mặc định: Kiếm 80%, Cung 70%.
+• Bắn cung có tỉ lệ trượt vào thân Rồng và trượt cả Pha Lê End!
+• Hãy gõ /upgrade để nâng điểm Khéo Léo (Dexterity), đẩy Aim Kiếm lên tối đa 99%
+  và Aim Cung lên tối đa 93% để bắn bách phát bách trúng.
+
+4. 🎒 QUY TẮC Ô CHỨA ĐỒ (SLOTS):
+• 1 món công cụ, vũ khí, giáp, bật lửa, vật tổ bất tử = chiếm 1 ô (slot riêng lẻ).
+• Khoáng sản, quặng, thức ăn: Xếp chồng (stack) tối đa 64 viên = chiếm 1 ô (slot).
+• Chế thêm Rương Gỗ hoặc Rương Ender / Shulker Box để mở rộng thêm ô chứa.
+
+================================================================================
+PHẦN III: TRA CỨU NHANH BẢNG LỆNH MINECRAFT RPG
+================================================================================
+
+1. LỆNH CƠ BẢN & ĐỜI SỐNG:
+• /menu (hoặc !menu): Bảng điều khiển trung tâm (đầy đủ nút bấm)
+• /daily (hoặc !daily): Điểm danh nhận thưởng hàng ngày
+• /upgrade (hoặc !upgrade, !status): Xem chỉ số nhân vật & nâng cấp độ khéo léo (Aim)
+• /sleep (hoặc !sleep): Ngủ tại nhà hồi 100% Máu và Mana
+• /eat [món_ăn] (hoặc !eat): Ăn thức ăn để hồi máu
+• /top (hoặc !top): Bảng xếp hạng server (Cấp độ, Tiền xu, Diệt Boss)
+• /help (hoặc !help): Xem hướng dẫn tân thủ
+
+2. LỆNH THU THẬP & SẢN XUẤT:
+• /chop (hoặc !chop): Chặt cây lấy gỗ, táo
+• /mine (hoặc !mine): Đào mỏ lấy than, sắt, vàng, kim cương, netherite
+• /explore (hoặc !explore): Thám hiểm đồng bằng, hang sâu, Nether, The End
+• /craft (hoặc !craft): Chế tạo công cụ, vũ khí, giáp, rương
+• /smelt (hoặc !smelt, !furnace): Nung quặng, nung thức ăn tại Lò Nung
+• /enchant (hoặc !enchant): Phù phép vũ khí và giáp tại Bàn Phù Phép
+• /disenchant (hoặc !disenchant, !grindstone, !taybua): Đá Mài - Tẩy sạch bùa chú (1 Lưu Ly)
+• /anvil (hoặc !anvil, !de): Đe rèn ghép sách phù phép và sửa trang bị
+
+3. LỆNH CHIẾN ĐẤU & TỔ ĐỘI:
+• /hunt (hoặc !hunt): Săn quái vật kiếm EXP và nguyên liệu
+• /wither (hoặc !wither): Triệu hồi và khiêu chiến Trùm Wither 3 đầu
+• /party (hoặc !party, !raid): Hệ thống tổ đội 4 người săn Rồng Ender
+  - /party create: Tạo phòng săn rồng
+  - /party invite @người_chơi: Mời đồng đội vào phòng
+  - /party start: Bắt đầu trận đại chiến (Chủ đội bấm)
+  - /party leave: Rời khỏi đội
+• /pvp @người_chơi (hoặc !pvp): Thách đấu PvP người chơi khác (Cướp tối đa 50 HP)
+
+4. LỆNH KINH TẾ & TÚI ĐỒ:
+• /equip [tên_món]: Mặc trang bị lên người
+• /unequip [vị_trí]: Tháo trang bị cất vào túi
+• /clear [tên_món]: Xóa bớt rác trong túi đồ
+• /shop (hoặc !shop): Cửa hàng mua bán vật phẩm
+• /sell [món] [số_lượng] (hoặc !sell all): Bán nhanh tài nguyên lấy Tiền Xu
+• /trade @người_chơi: Giao dịch tự do an toàn giữa 2 người chơi (Cấp 10+)
+• !reset (hoặc !resetmyplayer): Tự xóa tài khoản về Cấp 1 để chơi lại từ đầu
+================================================================================
