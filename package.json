@@ -1,0 +1,19 @@
+{
+  "name": "minecraft-rgp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.10",
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.5"
+  }
+}

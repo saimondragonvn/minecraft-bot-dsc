@@ -1,0 +1,267 @@
+================================================================================
+          DANH SÁCH TOÀN BỘ LỆNH BOT MINECRAFT RPG (PLAYER & ADMIN)
+================================================================================
+Bot hỗ trợ song song 2 cách tương tác:
+1. LỆNH GẠCH CHÉO (Slash Commands): Gõ dấu gạch chéo `/` để hiện menu gợi ý trực quan.
+2. LỆNH TIN NHẮN TEXT (Prefix Commands): Gõ trực tiếp dấu chấm than `!` vào khung chat.
+3. HỆ THỐNG NÚT BẤM (Buttons & Select Menus): Thao tác bấm nút trực quan không cần gõ lệnh.
+
+================================================================================
+PHẦN I: TẤT CẢ LỆNH CỦA NGƯỜI CHƠI (PLAYER COMMANDS)
+================================================================================
+
+1. BẢNG ĐIỀU KHIỂN & HỆ THỐNG CHÍNH:
+• `/menu` hoặc `!menu`
+  - Mở Bảng Điều Khiển Trung Tâm của Minecraft RPG với giao diện nút bấm đầy đủ.
+  - Từ đây có thể truy cập: Túi đồ, Trang bị, Nhà ở, Rương an toàn, Khám phá,
+    Khu vực chế tạo, Nâng cấp chỉ số, v.v.
+
+• `/help` hoặc `!help`
+  - Xem cẩm nang hướng dẫn tân thủ và danh sách các tính năng nổi bật.
+
+• `/upgrade` hoặc `!upgrade` (hoặc `!status`)
+  - Xem chi tiết chỉ số của nhân vật: Cấp độ, Máu (HP), Mana, Sức tấn công,
+    Giáp phòng thủ (% giảm sát thương), Điểm Khéo Léo (Dexterity).
+  - Nâng cấp độ Khéo Léo để tăng tỉ lệ ngắm bắn chính xác:
+    + Aim Kiếm: Mặc định 80%, tối đa 99%
+    + Aim Cung: Mặc định 70%, tối đa 93%
+
+• `/top` hoặc `!top`
+  - Xem Bảng Xếp Hạng của máy chủ: Top Cấp độ, Top Phú hào (Tiền xu),
+    Top Dũng sĩ diệt Rồng Ender & Trùm Wither.
+
+• `/daily` hoặc `!daily`
+  - Điểm danh nhận thưởng mỗi ngày: Nhận Tiền Xu, Điểm EXP và Rương Kho Báu.
+
+• `/sleep` hoặc `!sleep`
+  - Đi ngủ trên giường tại Nhà: Hồi phục ngay lập tức 100% Máu (HP) và Mana.
+
+• `/eat [món_ăn]` hoặc `!eat [món_ăn]`
+  - Ăn thức ăn trong túi đồ để hồi phục máu (Ví dụ: `!eat cooked_beef`, `!eat golden_apple`).
+  - Nếu không gõ tên món, bot sẽ hiện danh sách thức ăn hiện có để bạn chọn.
+
+• `!reset` hoặc `!resetmyplayer`
+  - Tự reset tài khoản của chính bản thân về vạch xuất phát ban đầu (Cấp 1, 0 Xu,
+    túi đồ rỗng, khóa lại Nether & The End) để trải nghiệm lại game từ đầu.
+
+--------------------------------------------------------------------------------
+2. HOẠT ĐỘNG THU THẬP & KHÁM PHÁ (GATHERING & EXPLORATION):
+• `/chop` hoặc `!chop`
+  - Đi đốn gỗ trong Rừng: Thu thập Gỗ Sồi (Oak Wood), Gỗ Bạch Dương (Birch Wood),
+    Hạt Cây, Quả Táo đỏ, v.v. (Có rìu sẽ tăng sản lượng).
+
+• `/mine` hoặc `!mine`
+  - Đi đào mỏ trong Hang Động: Thu thập Đá cuội, Than đá, Quặng Sắt, Quặng Vàng,
+    Đá Đỏ (Redstone), Ngọc Lưu Ly (Lapis Lazuli), Kim Cương (Diamond).
+  - Yêu cầu Cúp tương ứng theo cấp độ khoáng sản (Cúp Đá, Sắt, Kim Cương).
+
+• `/explore [khu_vực]` hoặc `!explore [khu_vực]`
+  - Thám hiểm các vùng đất kỳ bí: Đồng Bằng, Rừng Rậm, Hang Động Sâu (Deepslate),
+    Địa Ngục Nether, Thành Phố The End.
+  - Nhận kho báu ngẫu nhiên, bí kíp, tài nguyên hiếm và đối mặt quái vật.
+
+--------------------------------------------------------------------------------
+3. CHIẾN ĐẤU & TRÙM (COMBAT & BOSS RAIDS):
+• `/hunt` hoặc `!hunt`
+  - Đi săn quái vật trong đêm: Gặp Zombie, Skeleton, Nhện Spider, Creeper,
+    Phù Thủy Witch, Enderman, Piglin, v.v.
+  - Giao diện chiến đấu theo lượt: Chém Kiếm, Bắn Cung, Giơ Khiên, Hồi Máu, Rút Lui.
+  - Bỏ chạy quái thường: Tỉ lệ 65%.
+
+• `/wither` hoặc `!wither`
+  - Triệu hồi và khiêu chiến Trùm Wither (Cần 3 Đầu Khô Lâu Wither + 4 Cát Linh Hồn).
+  - Tiêu diệt để nhận Sao Địa Ngục (Nether Star) chế tạo Đèn Biển Hải Đăng (Beacon).
+  - Tỉ lệ tháo chạy Boss: 1:12 (~8.33%). Thành công hồi chiêu 1 tiếng để tái đấu.
+
+• `/party` hoặc `!party` (hoặc `!raid`)
+  - Hệ thống Tổ Đội Co-op Raid 4 người đi săn Rồng Ender (The End):
+    + `/party create` hoặc `!party create`: Tạo phòng đội săn Rồng mới.
+    + `/party invite @người_chơi` hoặc `!party invite @user`: Mời đồng đội vào phòng.
+    + `/party leave` hoặc `!party leave`: Rời khỏi đội săn rồng hiện tại.
+    + `/party start` hoặc `!party start`: Bắt đầu trận đại chiến (Chỉ chủ đội bấm được).
+    + `!party status`: Xem danh sách thành viên và trang bị của đội.
+  - Trong trận đánh Rồng Ender:
+    + Cần Cung tên và Mũi tên để bắn tỉa phá hủy 12 Pha Lê End trên tháp đá.
+    + Có tỉ lệ bắn hụt theo điểm Khéo Léo (Aim Cung).
+    + Nút [🏃 Tháo Chạy (1:12)]: Tỉ lệ 1:12 chớp cơ hội thoát về Thế giới thực,
+      giữ nguyên đồ đạc không bị rơi mất, hồi chiêu 1 tiếng để tái đấu!
+    + Phần thưởng hạ Rồng: Trứng Rồng, Cánh Cứng Elytra, Hộp Shulker Box,
+      15,000 EXP, 3,000 Xu và Sách Phù Phép hiếm!
+
+• `/pvp @người_chơi` hoặc `!pvp @người_chơi`
+  - Thách đấu tỷ thí võ nghệ với người chơi khác trong server.
+  - Người chiến thắng có cơ hội cướp tối đa 50 HP vĩnh viễn từ đối thủ!
+
+--------------------------------------------------------------------------------
+4. TRANG BỊ & TÚI ĐỒ (INVENTORY & EQUIPMENT):
+• `/equip [tên_món]` hoặc `!equip [tên_món]`
+  - Mặc trang bị lên người: Kiếm, Cúp, Rìu, Cung tên, Khiên, Mũ, Áo, Quần, Giày.
+
+• `/unequip [vị_trí]` hoặc `!unequip [vị_trí]`
+  - Tháo trang bị đang mặc trên người cất lại vào túi đồ (ví dụ: `!unequip sword`).
+
+• `/clear [món_đồ]` hoặc `!clear [món_đồ]`
+  - Dọn sạch hoặc xóa bớt vật phẩm rác trong túi đồ để giải phóng sức chứa.
+
+• Cơ chế Sức Chứa (Slots):
+  - 1 slot = 1 món công cụ/vũ khí/giáp/vật tổ bất tử (không xếp chồng).
+  - 1 slot = 64 viên tài nguyên/khối quặng (xếp chồng stack 64).
+  - Có thể chế Rương Gỗ hoặc Rương Ender/Shulker Box để mở rộng thêm slot túi đồ.
+
+--------------------------------------------------------------------------------
+5. CHẾ TẠO, NUNG & PHÙ PHÉP (CRAFTING & ENCHANTING):
+• `/craft [mục]` hoặc `!craft [mục]`
+  - Chế tạo vật phẩm tại Bàn Chế Tạo (Crafting Table):
+    + Công cụ: Cúp Gỗ -> Đá -> Sắt -> Kim Cương -> Netherite.
+    + Vũ khí & Giáp: Kiếm, Rìu, Cung, Khiên, Giáp sắt, Giáp kim cương, Giáp Netherite.
+    + Đặc biệt: Chế Hắc Diện Thạch (Obsidian = Dung Nham + Xô Nước), Mắt Ender
+      (Ender Eye = Bột Lửa Blaze Powder + Ngọc Ender), Bàn Chế Tạo, Rương Nhà.
+
+• `/smelt` hoặc `!smelt` (hoặc `!furnace`)
+  - Sử dụng Lò Nung (Furnace): Nung Quặng Sắt thành Thỏi Sắt, Quặng Vàng thành
+    Thỏi Vàng, nung Thịt Bò sống thành Thịt Bò nướng, Cát thành Kính, v.v.
+
+• `/enchant` hoặc `!enchant`
+  - Sử dụng Bàn Phù Phép (Enchanting Table): Tiêu tốn EXP và Ngọc Lưu Ly (Lapis)
+    để ép bùa cường hóa: Sắc Bén (Sharpness), Bảo Vệ (Protection), Hiệu Suất
+    (Efficiency), Sức Mạnh Cung (Power), Bền Bỉ (Unbreaking), v.v.
+
+• `/disenchant` hoặc `!disenchant` (hoặc `!grindstone`, `!taybua`)
+  - 🧹 ĐÁ MÀI (GRINDSTONE) - TẨY SẠCH BÙA CHÚ:
+  - Chỉ tiêu tốn duy nhất **1 Viên Ngọc Lưu Ly (Lapis Lazuli)** để xóa sạch toàn bộ
+    bùa chú trên trang bị, đưa trang bị về đồ Trắng nguyên bản để phù phép lại từ đầu!
+
+• `/anvil` hoặc `!anvil` (hoặc `!de`)
+  - Đe Rèn (Anvil): Đập Sách Phù Phép lên trang bị hoặc sửa chữa độ bền trang bị cũ.
+
+--------------------------------------------------------------------------------
+6. KINH TẾ & GIAO DỊCH (ECONOMY & TRADING):
+• `/shop` hoặc `!shop`
+  - Cửa hàng Thương Nhân: Mua các nguyên vật liệu cần thiết và bán sản phẩm thừa.
+
+• `/sell [món_đồ] [số_lượng]` hoặc `!sell [món_đồ] [số_lượng]` (hoặc `!ban`)
+  - Bán nhanh vật phẩm lấy Tiền Xu.
+  - Gõ `!sell all` hoặc `/sell all:True` để bán toàn bộ khoáng sản/nông sản thừa trong túi.
+
+• `/trade` hoặc `!trade @người_chơi [món_đồ] [số_lượng] [giá_xu]`
+  - Giao dịch tự do an toàn giữa 2 người chơi (Yêu cầu cả 2 đạt Cấp độ 10 trở lên).
+  - Có thể đặt giá 0 Xu để tặng quà cho bạn bè.
+
+
+================================================================================
+PHẦN II: TẤT CẢ LỆNH CỦA QUẢN TRỊ VIÊN (ADMIN COMMANDS & CHEATS)
+================================================================================
+
+ĐIỀU KIỆN ĐỂ CÓ QUYỀN ADMIN:
+1. Có ID Discord nằm trong biến `ADMIN_IDS` (trong file `.env`).
+2. Là Chủ Sở Hữu Máy Chủ Discord (Server Owner).
+3. Có Quyền Quản Trị Viên (Administrator Permission) trong server Discord.
+4. Được Admin hiện tại cấp quyền qua lệnh `/admin addadmin`.
+
+--------------------------------------------------------------------------------
+1. LỆNH DẠNG SLASH CHO ADMIN (`/admin ...`):
+• `/admin help`
+  - Hiển thị bảng tóm tắt toàn bộ quyền năng và cú pháp lệnh của Admin.
+
+• `/admin viewplayer target:@user` (hoặc `/admin inspect target:@user`)
+  - 🔍 **SOI HỒ SƠ CHI TIẾT NGƯỜI CHƠI (TỐI MẬT):**
+  - Hiển thị toàn bộ thông tin tài khoản người chơi:
+    + Cấp độ, EXP, Máu tối đa, Mana, Tiền Xu, Tiền gửi Ngân hàng.
+    + Sức chứa túi đồ (Slots), Điểm Khéo Léo (Aim Kiếm, Aim Cung).
+    + Tổng Công, Tổng Thủ, % Giảm sát thương.
+    + Toàn bộ đồ đang mặc trên người và bùa phép (Enchants).
+    + Toàn bộ danh sách vật phẩm trong Túi Đồ và Rương An Toàn Tại Nhà.
+    + Thống kê số lần chết, lý do tử vong gần nhất, số quái đã diệt, số Rồng đã hạ, v.v.
+  - **Chỉ gửi riêng tư cho Admin (Ephemeral)**, người chơi khác không thể nhìn thấy!
+
+• `/admin give target:@user item:[id|all] count:[số] coins:[tiền]`
+  - Tặng đồ hoặc tiền cho người chơi:
+    + Tặng full x64 tất cả đồ trong game: Chọn `item: all` count: 64.
+    + Tặng món đồ cụ thể: Nhập ID món đồ (ví dụ: `netherite_ingot`, `dragon_egg`,...).
+    + Tặng Tiền Xu: Nhập số tiền vào ô `coins` (ví dụ: `coins: 50000`).
+
+• `/admin setlevel target:@user level:[cấp]`
+  - Đặt cấp độ tùy thích cho người chơi (Từ Cấp 1 đến Cấp 1000).
+  - Tự động đồng bộ lại Máu tối đa và Mana tương ứng theo cấp mới.
+
+• `/admin setcoins target:@user coins:[số_xu]`
+  - Đặt chính xác số dư tiền xu cho người chơi.
+
+• `/admin sethp target:@user hp:[máu]`
+  - Đặt lượng Máu Tối Đa (Max HP) tùy ý cho người chơi (Cheat máu trâu, ví dụ: 500 HP).
+
+• `/admin heal target:@user`
+  - Hồi phục ngay lập tức 100% Máu và Mana cho người chơi.
+
+• `/admin resetdragon [target:@user]`
+  - 🐲 **XÓA THỜI GIAN HỒI CHIÊU SĂN RỒNG ENDER:**
+  - Xóa bỏ thời gian chờ 5 tiếng săn Rồng Ender, giúp người chơi có thể khiêu chiến
+    hoặc lập đội vào đập Rồng ngay tức khắc! (Để trống target nếu tự xóa cho bản thân).
+
+• `/admin resetplayer [target:@user]`
+  - 🔄 Đưa người chơi trở về vạch xuất phát:
+    Cấp 1, 0 Xu, túi đồ rỗng 0 món, 40 HP cơ bản, khóa lại toàn bộ Nether & The End.
+
+• `/admin resetall confirm:True`
+  - 🚨 **LỆNH NGUY HIỂM - RESET TOÀN BỘ SERVER:**
+  - Đưa toàn bộ cơ sở dữ liệu của TẤT CẢ người chơi trong server về Cấp 1, xóa sạch
+    đồ đạc và tiền tệ để làm mùa mới (New Season).
+
+• `/admin unlockall target:@user`
+  - 🔓 Mở khóa ngay lập tức Cổng Nether và Cổng The End cho người chơi mà không cần
+    phải gom tài nguyên xây cổng.
+
+• `/admin addadmin target:@user`
+  - Cấp quyền Admin vĩnh viễn cho một người chơi trong server.
+
+• `/admin listitems`
+  - Hiển thị danh sách tất cả các mã ID vật phẩm hiện có trong game để Admin dễ dàng give.
+
+--------------------------------------------------------------------------------
+2. LỆNH CHAT TEXT GÕ NHANH CHO ADMIN (`!...`):
+*(Admin có thể gõ trực tiếp vào kênh chat bất kỳ mà không cần chờ menu Slash)*
+
+• `!admin`: Xem bảng trợ giúp lệnh Admin.
+• `!viewplayer @user` hoặc `!inspect @user`:
+  - Gửi toàn bộ hồ sơ chi tiết người chơi vào Tin Nhắn Riêng (DM) của Admin!
+• `!give @user all 64`: Tặng x64 tất cả mọi món đồ có trong game.
+• `!give all 64`: Tự tặng x64 tất cả mọi món đồ cho bản thân Admin.
+• `!give @user [id_món] [số_lượng]`: Ví dụ: `!give @Player diamond 64`
+• `!give @user coins [số_tiền]`: Ví dụ: `!give @Player coins 100000`
+• `!give @user exp [số_exp]`: Ví dụ: `!give @Player exp 20000`
+• `!setlevel @user [cấp]` hoặc `!setlv [cấp]`: Ví dụ: `!setlevel @Player 50` hoặc `!setlv 100`
+• `!sethp @user [số_máu]`: Ví dụ: `!sethp @Player 200`
+• `!heal [@user]`: Hồi 100% máu và mana cho người chơi (hoặc bản thân nếu không tag).
+• `!resetdragon [@user]`: Xóa hồi chiêu 5 tiếng săn Rồng Ender ngay lập tức.
+• `!resetplayer @user`: Reset người chơi về Cấp 1, 0 Xu, túi đồ rỗng.
+• `!resetall`: 🚨 Reset toàn bộ người chơi trong server về Cấp 1.
+• `!unlockall [@user]`: Mở khóa Nether và The End.
+• `!clear @user all`: Xóa sạch túi đồ của người chơi.
+• `!listitems` hoặc `!items`: Xem danh sách tất cả ID vật phẩm trong game.
+
+================================================================================
+PHẦN III: CÁC CƠ CHẾ NỔI BẬT & LƯU Ý QUAN TRỌNG
+================================================================================
+
+1. TỈ LỆ THÁO CHẠY KHI ĐÁNH BOSS (1:12):
+• Khi đối đầu với Boss hùng mạnh (Rồng Ender, Trùm Wither):
+  - Tỉ lệ tháo chạy thành công là **1:12** (xấp xỉ 8.33%).
+  - Nếu thành công: Toàn bộ thành viên thoát thân an toàn về Thế giới thực,
+    **KHÔNG MẤT BẤT KỲ VẬT PHẨM HAY TRANG BỊ NÀO**!
+  - Thời gian hồi chiêu tái chiến khi tháo chạy thành công: **1 tiếng**.
+  - Nếu thất bại: Boss nổi giận phản kích và quật đòn cực mạnh!
+
+2. CƠ CHẾ TỬ VONG & BẢO QUẢN ĐỒ ĐẠC:
+• Khi bị quái vật hoặc Boss tiêu diệt (về 0 HP):
+  - Nếu có mang theo **Vật Tổ Bất Tử (Totem of Undying)**: Tự động kích hoạt hồi sinh,
+    hồi phục máu và bảo toàn 100% đồ đạc!
+  - Nếu không có Vật Tổ: Người chơi sẽ tử vong, toàn bộ đồ rơi ra sẽ được hiển thị
+    chi tiết trên màn hình báo tử, hồi sinh tại Nhà với 40 HP cơ bản.
+  - **RƯƠNG NHÀ (Chest at Home):** Những món đồ cất trong Rương Nhà (kể cả cúp, kiếm,
+    giáp, cánh Elytra) được bảo vệ tuyệt đối, không bao giờ bị rơi mất khi tử trận!
+
+3. TẨY BÙA CHÚ TẠI ĐÁ MÀI (GRINDSTONE):
+• Chỉ tốn duy nhất **1 Ngọc Lưu Ly (Lapis Lazuli)** cho mỗi lần tẩy bùa.
+• Trang bị sau khi tẩy sẽ trở thành đồ Trắng nguyên vẹn, giữ nguyên độ bền và cấp độ,
+  sẵn sàng để phù phép lại các dòng bùa xịn hơn!
+================================================================================

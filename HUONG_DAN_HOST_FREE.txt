@@ -1,0 +1,95 @@
+================================================================================
+          CẨM NANG HƯỚNG DẪN CHỌN VÀ UP BOT LÊN HOST FREE ỔN ĐỊNH 24/7
+================================================================================
+
+Để một Discord Bot Minecraft RPG chạy mượt và ổn định, bot cần:
+1. Chạy tiến trình Node.js liên tục 24/7 (kết nối Discord WebSocket Gateway).
+2. Lưu trữ file dữ liệu (players.json, market.json) an toàn không bị mất sau khi restart.
+
+Dưới đây là 3 giải pháp FREE tốt nhất và hướng dẫn chi tiết từng bước:
+
+================================================================================
+LỰA CHỌN 1: BOT-HOSTING.NET (KHUYÊN DÙNG SỐ 1 - ỔN ĐỊNH & DỄ NHẤT CHO DISCORD BOT)
+================================================================================
+★ Đánh giá: 10/10 (Chuyên dụng cho Bot Discord, có ổ cứng lưu file vĩnh viễn)
+★ Chi phí: 100% Miễn phí
+★ Ưu điểm:
+  • Giao diện quản lý Pterodactyl chuyên nghiệp (giống hosting Minecraft server).
+  • Có sẵn mục "Files" (File Manager) -> Dữ liệu players.json KHÔNG BAO GIỜ bị mất!
+  • Có cửa sổ Console trực quan xem log chat, nút Start / Stop / Restart tức thì.
+
+▶ CÁC BƯỚC UP BOT LÊN BOT-HOSTING.NET:
+1. Truy cập https://bot-hosting.net/ và bấm "Login with Discord".
+2. Bấm vào nút "Create Server":
+   - Server Name: Đặt tên (vd: Minecraft-RPG-Bot)
+   - Software: Chọn **Node.js**
+   - Node Version: Chọn **Node.js 20** hoặc **Node.js 22**
+3. Vào trang quản lý Server (Console Panel) vừa tạo:
+   - Trên máy tính bạn: Chọn toàn bộ file trong thư mục bot (TRỪ thư mục `node_modules`),
+     chuột phải chọn "Compress to ZIP" để nén thành file `bot.zip`.
+   - Vào tab "Files" trên trang web Bot-Hosting, bấm "Upload" và chọn file `bot.zip`.
+   - Chuột phải vào file `bot.zip` trên web -> chọn "Unarchive" (Giải nén).
+4. Kiểm tra file `.env` đã có đầy đủ:
+   DISCORD_TOKEN=...
+   CLIENT_ID=...
+   ADMIN_IDS=...
+5. Chuyển sang tab "Console" -> Bấm nút **START** màu xanh lá.
+   -> Bot sẽ tự động tải thư viện và online vĩnh viễn 24/7!
+
+================================================================================
+LỰA CHỌN 2: RENDER.COM (WEB SERVICE MIỄN PHÍ + UPTIMEROBOT GIỮ BOT 24/7)
+================================================================================
+★ Đánh giá: 9/10 (Thương hiệu cloud lớn, tự động update khi push GitHub)
+★ Chi phí: 100% Miễn phí
+
+▶ CÁCH HOẠT ĐỘNG:
+Bot đã được tôi tích hợp sẵn một Web Server mini bên trong `src/index.js` mở cổng PORT 3000.
+Render sẽ nhận diện đây là một "Web Service". Bạn chỉ cần dùng UptimeRobot ping vào
+địa chỉ web của bot mỗi 5 - 10 phút là bot sẽ thức 24/7 không bao giờ ngủ!
+
+▶ CÁC BƯỚC THỰC HIỆN:
+1. Đẩy mã nguồn bot lên GitHub cá nhân của bạn (repo Private hoặc Public).
+2. Vào https://render.com -> Đăng ký tài khoản bằng GitHub.
+3. Bấm "+ New" -> Chọn "Web Service".
+4. Chọn repository bot của bạn vừa push:
+   - Name: minecraft-rpg-bot
+   - Runtime: Node
+   - Build Command: `npm install`
+   - Start Command: `npm start`
+   - Instance Type: Free
+5. Kéo xuống mục "Environment Variables", thêm các biến:
+   DISCORD_TOKEN = <token của bot>
+   CLIENT_ID     = <id của bot>
+   ADMIN_IDS     = <id discord của bạn>
+6. Bấm "Create Web Service" và đợi 1-2 phút cho Render build xong.
+7. Khi Render cấp cho bạn một đường link web (dạng: `https://ten-bot-cua-ban.onrender.com`):
+   - Vào https://uptimerobot.com (hoặc https://cron-job.org) tạo tài khoản free.
+   - Bấm "+ Add New Monitor":
+     + Monitor Type: HTTP(s)
+     + Friendly Name: Minecraft Bot Ping
+     + URL: Dán link `https://ten-bot-cua-ban.onrender.com`
+     + Monitoring Interval: Chọn 5 phút (5 minutes).
+   - Bấm "Create Monitor".
+   -> Xong! UptimeRobot sẽ liên tục đánh thức bot mỗi 5 phút, bot chạy 24/7 hoàn toàn miễn phí!
+
+================================================================================
+LỰA CHỌN 3: KOYEB.COM (FREE NANO INSTANCE - KHÔNG LO SLEEP)
+================================================================================
+★ Đánh giá: 8.5/10 (Miễn phí 1 container 512MB RAM 24/7 không cần ping)
+★ Chi phí: 100% Miễn phí không cần thẻ tín dụng
+
+▶ CÁC BƯỚC THỰC HIỆN:
+1. Vào https://www.koyeb.com -> Đăng ký tài khoản free.
+2. Bấm "Create Service" -> Chọn "GitHub".
+3. Chọn repo bot Minecraft RPG của bạn.
+4. Chọn loại máy chủ: **Nano (Free)**.
+5. Thêm các biến môi trường (Environment Variables) như DISCORD_TOKEN, CLIENT_ID.
+6. Bấm "Deploy" -> Koyeb sẽ tự động build và chạy bot 24/7!
+
+================================================================================
+💡 LỜI KHUYÊN DÀNH CHO BẠN:
+================================================================================
+• Nếu bạn muốn up bot nhanh nhất, không cần cài đặt lằng nhằng và dữ liệu người chơi
+  (players.json) được lưu vĩnh viễn an toàn 100%: -> **Hãy chọn LỰA CHỌN 1 (Bot-Hosting.net)**.
+• Nếu bạn quen thuộc với GitHub và muốn tự động cập nhật mỗi khi sửa code: -> **Chọn LỰA CHỌN 2 (Render + UptimeRobot)**.
+================================================================================

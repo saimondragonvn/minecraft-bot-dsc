@@ -1,0 +1,1007 @@
+{
+  "12345": {
+    "id": "12345",
+    "name": "TestPlayer",
+    "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "lastDaily": 0,
+    "lastDeathReason": null,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "dexterity": 0,
+    "effects": {},
+    "enchants": {},
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "homeChestSlots": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0
+  },
+  "944428607642664972": {
+    "id": "944428607642664972",
+    "name": "giahoaimeomeoz",
+    "avatar": "https://cdn.discordapp.com/avatars/944428607642664972/d2a273712ea766a561be15e239df8df5.webp",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 24,
+    "maxHp": 40,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": true
+    },
+    "lastDaily": 0,
+    "lastDeathReason": null,
+    "lastChop": 1791097711376,
+    "lastMine": 1791098682768,
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastNetherExplore": 1791064778869,
+    "lastDragonFight": 0,
+    "lastFlight": 0,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "lastWalk": 1791097761417,
+    "dexterity": 0,
+    "enchants": {},
+    "effects": {},
+    "homeChestSlots": 0
+  },
+  "1414861605354606643": {
+    "id": "1414861605354606643",
+    "name": "ngqle",
+    "avatar": "https://cdn.discordapp.com/avatars/1414861605354606643/002147b5192e695cf0fa231c00442e3a.webp",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "lastDaily": 0,
+    "lastDeathReason": null,
+    "lastMine": 1791085564472,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "lastDragonFight": 0,
+    "lastFlight": 0,
+    "lastChop": 1791084073618,
+    "lastWalk": 1791089022892,
+    "dexterity": 0,
+    "effects": {},
+    "enchants": {},
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "homeChestSlots": 0
+  },
+  "363778925173932032": {
+    "id": "363778925173932032",
+    "name": "ponn_07",
+    "avatar": "https://cdn.discordapp.com/avatars/363778925173932032/802cfd384a40de3769f4e02e8fc6dceb.webp",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": false,
+      "dmNotify": true
+    },
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastDeathReason": null,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "lastChop": 1791085300420,
+    "lastMine": 1791090540977,
+    "dexterity": 0,
+    "enchants": {},
+    "effects": {},
+    "bank": 0,
+    "homeChestSlots": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0
+  },
+  "test_tester_1791079166509": {
+    "id": "test_tester_1791079166509",
+    "name": "TestPlayer",
+    "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastDeathReason": null,
+    "enchants": {},
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "dexterity": 0,
+    "effects": {},
+    "homeChestSlots": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0
+  },
+  "1328478951974113281": {
+    "id": "1328478951974113281",
+    "name": "fuongiu",
+    "avatar": "https://cdn.discordapp.com/avatars/1328478951974113281/f06175c48987bbc63283e5902f9a94bf.webp",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastDeathReason": null,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "dexterity": 0,
+    "effects": {},
+    "enchants": {},
+    "homeChestSlots": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0
+  },
+  "test_user": {
+    "id": "test_user",
+    "name": "TestUser",
+    "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0,
+    "lastDeathReason": null,
+    "dexterity": 0,
+    "effects": {},
+    "enchants": {},
+    "homeChestSlots": 0
+  },
+  "test_aim_user": {
+    "id": "test_aim_user",
+    "name": "TesterAim",
+    "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "dexterity": 0,
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0,
+    "lastDeathReason": null,
+    "effects": {},
+    "enchants": {},
+    "homeChestSlots": 0
+  },
+  "test_craft": {
+    "id": "test_craft",
+    "name": "Crafter",
+    "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "dexterity": 0,
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0,
+    "lastDeathReason": null,
+    "effects": {},
+    "enchants": {},
+    "homeChestSlots": 0
+  },
+  "test_user_enchant_verify": {
+    "id": "test_user_enchant_verify",
+    "name": "Tester",
+    "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "dexterity": 0,
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0,
+    "lastDeathReason": null,
+    "homeChestSlots": 0,
+    "homeChest": [],
+    "enchants": {},
+    "effects": {}
+  },
+  "test_user_ui": {
+    "id": "test_user_ui",
+    "name": "TesterUser",
+    "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "dexterity": 0,
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0,
+    "lastDeathReason": null,
+    "effects": {},
+    "enchants": {},
+    "homeChestSlots": 0
+  },
+  "test_potion_user_777": {
+    "id": "test_potion_user_777",
+    "name": "HeroTester",
+    "coins": 0,
+    "hp": 40,
+    "maxHp": 40,
+    "effects": {},
+    "inventory": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "enchants": {},
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "dexterity": 0,
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "mana": 10,
+    "maxMana": 10,
+    "bank": 0,
+    "chest": [],
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "homeChestSlots": 0,
+    "lastDaily": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0,
+    "lastDeathReason": null
+  },
+  "1555946118297161929": {
+    "id": "1555946118297161929",
+    "name": "Minecraft-TCL",
+    "avatar": "https://cdn.discordapp.com/avatars/1555946118297161929/467dfef4759dab0d61bffa0555cd61b9.webp",
+    "effects": {},
+    "level": 1,
+    "exp": 0,
+    "maxExp": 200,
+    "hp": 40,
+    "maxHp": 40,
+    "pvpHpStolen": 0,
+    "customMaxHp": null,
+    "mana": 10,
+    "maxMana": 10,
+    "coins": 0,
+    "bank": 0,
+    "inventory": [],
+    "chest": [],
+    "equipment": {
+      "pickaxe": null,
+      "axe": null,
+      "sword": null,
+      "bow": null,
+      "helmet": null,
+      "chestplate": null,
+      "leggings": null,
+      "boots": null,
+      "shield": null
+    },
+    "durability": {},
+    "skills": {
+      "mining": {
+        "level": 1,
+        "exp": 0
+      },
+      "woodcutting": {
+        "level": 1,
+        "exp": 0
+      },
+      "combat": {
+        "level": 1,
+        "exp": 0
+      },
+      "farming": {
+        "level": 1,
+        "exp": 0
+      }
+    },
+    "stats": {
+      "deaths": 0,
+      "mobsKilled": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0,
+      "dragonKilled": 0
+    },
+    "unlocked": {
+      "nether": false,
+      "the_end": false,
+      "furnace": false,
+      "enchant": false,
+      "enchanting_table": false
+    },
+    "settings": {
+      "language": "vi",
+      "durabilityAlert": true,
+      "dmNotify": false
+    },
+    "dexterity": 0,
+    "extraSlots": 0,
+    "chestsCrafted": 0,
+    "lastDaily": 0,
+    "lastFlight": 0,
+    "lastDragonFight": 0,
+    "lastDeathReason": null,
+    "enchants": {},
+    "homeChestSlots": 0
+  }
+}

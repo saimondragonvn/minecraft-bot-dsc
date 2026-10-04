@@ -1,0 +1,83 @@
+================================================================================
+          HƯỚNG DẪN CHI TIẾT DEPLOY BOT MINECRAFT RPG LÊN RAILWAY.APP
+               (CẤU HÌNH LƯU TRỮ DỮ LIỆU BỀN VỮNG - KHÔNG MẤT DATA)
+================================================================================
+
+Railway là nền tảng Cloud hosting cực kỳ mượt mà cho Discord Bot chạy 24/7.
+Tuy nhiên, container trên Cloud mặc định là "ephemeral" (dữ liệu tạm thời). Nếu không
+gắn Volume, mỗi lần bot redeploy hoặc cập nhật code thì file dữ liệu sẽ bị reset.
+Tài liệu này hướng dẫn bạn cấu hình Volume để giữ nguyên 100% dữ liệu người chơi!
+
+--------------------------------------------------------------------------------
+BƯỚC 1: ĐƯA SOURCE CODE LÊN GITHUB
+--------------------------------------------------------------------------------
+1. Tạo một repository mới trên GitHub (khuyên dùng Private để bảo mật).
+2. Đẩy toàn bộ thư mục code này lên GitHub repo của bạn:
+   git init
+   git add .
+   git commit -m "Minecraft RPG Bot Ready for Railway"
+   git branch -M main
+   git remote add origin https://github.com/TÊN_BẠN/TÊN_REPO.git
+   git push -u origin main
+
+*(Lưu ý: File .env chứa Token đã được .gitignore tự động bảo vệ, không lo lộ token)*
+
+--------------------------------------------------------------------------------
+BƯỚC 2: TẠO PROJECT TRÊN RAILWAY
+--------------------------------------------------------------------------------
+1. Truy cập https://railway.app và đăng nhập bằng tài khoản GitHub của bạn.
+2. Bấm vào nút "+ New Project".
+3. Chọn "Deploy from GitHub repo".
+4. Chọn repository bot Minecraft RPG mà bạn vừa push ở Bước 1.
+5. Bấm "Deploy Now".
+
+--------------------------------------------------------------------------------
+BƯỚC 3: CẤU HÌNH BIẾN MÔI TRƯỜNG (ENVIRONMENT VARIABLES)
+--------------------------------------------------------------------------------
+1. Trong Dashboard Railway, bấm vào Service Bot của bạn.
+2. Chuyển sang tab "Variables" (Biến môi trường).
+3. Bấm "New Variable" (hoặc "Raw Editor") và thêm các biến sau:
+
+   DISCORD_TOKEN = <Token của Bot lấy từ Discord Developer Portal>
+   CLIENT_ID     = <Application ID của Bot>
+   ADMIN_IDS     = <ID tài khoản Discord của bạn, ví dụ: 123456789012345678>
+   DATA_DIR      = /app/data
+
+--------------------------------------------------------------------------------
+BƯỚC 4: GẮN VOLUME LƯU TRỮ VĨNH VIỄN (CỰC KỲ QUAN TRỌNG - PERSISTENT STORAGE)
+--------------------------------------------------------------------------------
+Đây là bước quyết định để bot KHÔNG BAO GIỜ bị mất dữ liệu cấp độ, túi đồ,
+tiền xu hay rương nhà của người chơi khi bot khởi động lại hoặc deploy lại!
+
+1. Tại màn hình Project Canvas của Railway, bấm vào nút "+ New" ở góc trên.
+2. Chọn "Volume" (hoặc trong Service Settings -> bấm "Attach Volume").
+3. Ở ô "Mount Path", nhập chính xác đường dẫn:
+   /app/data
+4. Chọn gắn Volume này vào Service Bot của bạn.
+5. Bấm "Add" hoặc "Save".
+
+-> Khi gắn xong, thư mục `/app/data` sẽ được liên kết trực tiếp vào ổ cứng lưu trữ
+riêng của Railway. Tất cả các file:
+   • players.json (Dữ liệu toàn bộ người chơi)
+   • market.json  (Dữ liệu chợ mua bán)
+sẽ được lưu vĩnh viễn, an toàn tuyệt đối!
+
+--------------------------------------------------------------------------------
+BƯỚC 5: KIỂM TRA VÀ HOÀN TẤT
+--------------------------------------------------------------------------------
+1. Chuyển sang tab "Deployments" -> bấm vào bản deploy mới nhất.
+2. Chuyển sang tab "View Logs".
+3. Khi thấy dòng:
+   [Database] Đã nạp ... người chơi và ... mục chợ.
+   [Ready] Bot đã trực tuyến với tên: ...
+   [Slash Commands] Đã đăng ký thành công ... lệnh Slash toàn cầu!
+   -> Chúc mừng! Bot Minecraft RPG của bạn đã chạy 24/7 trực tuyến trên Railway!
+
+--------------------------------------------------------------------------------
+💡 MẸO SAO LƯU (BACKUP) DỮ LIỆU TỪ RAILWAY:
+--------------------------------------------------------------------------------
+Nếu muốn tải file players.json từ Railway về máy tính cá nhân để backup:
+1. Bạn có thể cài Railway CLI: `npm i -g @railway/cli`
+2. Gõ `railway login` và `railway link`
+3. Hoặc vào tab Volume trên giao diện web Railway để xem dung lượng và tải snapshot.
+================================================================================
